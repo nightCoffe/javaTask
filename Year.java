@@ -14,8 +14,7 @@ public class Year {
         int year = console.nextInt();
         if (year % 4 == 0) {
             System.out.println("високосный год");
-        }
-        else {
+        } else {
             System.out.println("не високосный год");
         }
     }
